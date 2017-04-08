@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practise</title>
+        <link href="practise.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        
+        <!-- For ejs1
+        <h1>Just a practise done by RAMSHA HASAN</h1>
+        <p>a learning web developer</p>
+        -->
+
+          <!-- For ejs2
+          <h1>WELCOME TO THE PAGE OF <%= person %></h1>
+          <p>a learning web developer</p>
+          -->
+       
+       <!-- For ejs3
+       <h1>WELCOME TO THE PAGE OF <%= person %></h1>
+       <p>a learning web developer</p>
+       <h3><%= data.age %></h3>
+       <h3><%= data.profession %></h3>
+       -->
+
+      <!-- For partial view
+      <% include partials/nav.ejs %>
+       <h1>WELCOME TO THE PAGE OF <%= person %></h1>
+       <p>a learning web developer</p>
+       <h3><%= data.age %></h3>
+       <h3><%= data.profession %></h3>
+       -->
+        
+        <!--
+        <h1>WELCOME TO THE PAGE OF <%= qs.name %></h1>
+        -->
+
+
+<!-- qs will be printed in input field
+<form>
+    <label for="who">Who Do You Want To Contact</label>
+    <input type="text" name="who" value="<%= qs.name %>">
+    <br/><br/>
+    <label for="department">Which Department</label>
+    <input type="text" name="department" value="<%= qs.dept %>">
+    <br/><br/>
+    <label for="email">Enter your Email Address</label>
+    <input type="email" name="email"/>
+    <br/><br/>
+    <input type="submit" name="submit"/>
+</form>
+-->         
+
+<!-- The values submitted to the server are consoled
+<form id="contact-form" method="post" action="/pre">
+    <label for="who">Who Do You Want To Contact</label>
+    <input type="text" name="who" value="<%= qs.name %>">
+    <br/><br/>
+    <label for="department">Which Department</label>
+    <input type="text" name="department" value="<%= qs.dept %>">
+    <br/><br/>
+    <label for="email">Enter your Email Address</label>
+    <input type="email" name="email"/>
+    <br/><br/>
+    <input type="submit" name="submit"/>
+</form>
+-->
+
+    </body>
+</html>
